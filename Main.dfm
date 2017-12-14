@@ -27,9 +27,8 @@ object MainForm: TMainForm
   object edSourse: TEdit
     Left = 54
     Top = 11
-    Width = 707
+    Width = 550
     Height = 21
-    Anchors = [akLeft, akTop, akRight]
     TabOrder = 0
     Text = 
       'http://rss.weatherzone.com.au/?u=12994-1285&lt=aploc&lc=9388&obs' +
@@ -37,11 +36,10 @@ object MainForm: TMainForm
     OnChange = edSourseChange
   end
   object bbStart: TBitBtn
-    Left = 783
+    Left = 614
     Top = 7
     Width = 156
     Height = 25
-    Anchors = [akTop, akRight]
     Caption = 'Download data'
     TabOrder = 1
     OnClick = bbStartClick
